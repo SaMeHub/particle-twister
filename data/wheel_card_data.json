@@ -1,0 +1,830 @@
+{
+  "wheel" : [
+    {
+      "id" : 0,
+      "label" : "bosons",
+      "limb" : "right hand",
+      "color_label" : "yellow",
+      "color_hex" : "#FEF069",
+      "options" : "6",
+      "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+    },
+    {
+      "id" : 1,
+      "label" : "down-type quarks",
+      "limb" : "right hand",
+      "color_label" : "green",
+      "color_hex" : "#39B54A",
+      "options" : "6",
+      "solution" : "d, dbar, s, sbar, b, bbar"
+    },
+    {
+      "id" : 2,
+      "label" : "up-type quarks",
+      "limb" : "right hand",
+      "color_label" : "blue",
+      "color_hex" : "#27AAE1",
+      "options" : "6",
+      "solution" : "u, ubar, c, cbar, t, tbar"
+    },
+    {
+      "id" : 3,
+      "label" : "neutral leptons",
+      "limb" : "right hand",
+      "color_label" : "purple",
+      "color_hex" : "#7F6AAF",
+      "options" : "6",
+      "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+    },
+    {
+      "id" : 4,
+      "label" : "charged leptons",
+      "limb" : "right hand",
+      "color_label" : "pink",
+      "color_hex" : "#EF5098",
+      "options" : "6",
+      "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+    },
+    {
+      "id" : 5,
+      "label" : "bosons",
+      "limb" : "left hand",
+      "color_label" : "yellow",
+      "color_hex" : "#FEF069",
+      "options" : "6",
+      "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+    },
+    {
+      "id" : 6,
+      "label" : "down-type quarks",
+      "limb" : "left hand",
+      "color_label" : "green",
+      "color_hex" : "#39B54A",
+      "options" : "6",
+      "solution" : "d, dbar, s, sbar, b, bbar"
+    },
+    {
+      "id" : 7,
+      "label" : "up-type quarks",
+      "limb" : "left hand",
+      "color_label" : "blue",
+      "color_hex" : "#27AAE1",
+      "options" : "6",
+      "solution" : "u, ubar, c, cbar, t, tbar"
+    },
+    {
+      "id" : 8,
+      "label" : "neutral leptons",
+      "limb" : "left hand",
+      "color_label" : "purple",
+      "color_hex" : "#7F6AAF",
+      "options" : "6",
+      "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+    },
+    {
+      "id" : 9,
+      "label" : "charged leptons",
+      "limb" : "left hand",
+      "color_label" : "pink",
+      "color_hex" : "#EF5098",
+      "options" : "6",
+      "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+    },
+    {
+      "id" : 10,
+      "label" : "bosons",
+      "limb" : "left foot",
+      "color_label" : "yellow",
+      "color_hex" : "#FEF069",
+      "options" : "6",
+      "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+    },
+    {
+      "id" : 11,
+      "label" : "down-type quarks",
+      "limb" : "left foot",
+      "color_label" : "green",
+      "color_hex" : "#39B54A",
+      "options" : "6",
+      "solution" : "d, dbar, s, sbar, b, bbar"
+    },
+    {
+      "id" : 12,
+      "label" : "up-type quarks",
+      "limb" : "left foot",
+      "color_label" : "blue",
+      "color_hex" : "#27AAE1",
+      "options" : "6",
+      "solution" : "u, ubar, c, cbar, t, tbar"
+    },
+    {
+      "id" : 13,
+      "label" : "neutral leptons",
+      "limb" : "left foot",
+      "color_label" : "purple",
+      "color_hex" : "#7F6AAF",
+      "options" : "6",
+      "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+    },
+    {
+      "id" : 14,
+      "label" : "charged leptons",
+      "limb" : "left foot",
+      "color_label" : "pink",
+      "color_hex" : "#EF5098",
+      "options" : "6",
+      "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+    },
+    {
+      "id" : 15,
+      "label" : "bosons",
+      "limb" : "right foot",
+      "color_label" : "yellow",
+      "color_hex" : "#FEF069",
+      "options" : "6",
+      "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+    },
+    {
+      "id" : 16,
+      "label" : "down-type quarks",
+      "limb" : "right foot",
+      "color_label" : "green",
+      "color_hex" : "#39B54A",
+      "options" : "6",
+      "solution" : "d, dbar, s, sbar, b, bbar"
+    },
+    {
+      "id" : 17,
+      "label" : "up-type quarks",
+      "limb" : "right foot",
+      "color_label" : "blue",
+      "color_hex" : "#27AAE1",
+      "options" : "6",
+      "solution" : "u, ubar, c, cbar, t, tbar"
+    },
+    {
+      "id" : 18,
+      "label" : "neutral leptons",
+      "limb" : "right foot",
+      "color_label" : "purple",
+      "color_hex" : "#7F6AAF",
+      "options" : "6",
+      "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+    },
+    {
+      "id" : 19,
+      "label" : "charged leptons",
+      "limb" : "right foot",
+      "color_label" : "pink",
+      "color_hex" : "#EF5098",
+      "options" : "6",
+      "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+    }
+  ],
+  "cards" : {
+    "green" : [
+      {
+        "label" : "any charged lepton",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+      },
+      {
+        "label" : "any charged lepton",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+      },
+      {
+        "label" : "any charged lepton",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+      },
+      {
+        "label" : "any charged lepton",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
+      },
+      {
+        "label" : "any neutral lepton",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+      },
+      {
+        "label" : "any neutral lepton",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+      },
+      {
+        "label" : "any neutral lepton",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+      },
+      {
+        "label" : "any neutral lepton",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
+      },
+      {
+        "label" : "any up-type quark",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "u, ubar, c, cbar, t, tbar"
+      },
+      {
+        "label" : "any up-type quark",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "u, ubar, c, cbar, t, tbar"
+      },
+      {
+        "label" : "any up-type quark",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "u, ubar, c, cbar, t, tbar"
+      },
+      {
+        "label" : "any up-type quark",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "u, ubar, c, cbar, t, tbar"
+      },
+      {
+        "label" : "any down-type quark",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "d, dbar, s, sbar, b, bbar"
+      },
+      {
+        "label" : "any down-type quark",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "d, dbar, s, sbar, b, bbar"
+      },
+      {
+        "label" : "any down-type quark",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "d, dbar, s, sbar, b, bbar"
+      },
+      {
+        "label" : "any down-type quark",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "d, dbar, s, sbar, b, bbar"
+      },
+      {
+        "label" : "any boson",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+      },
+      {
+        "label" : "any boson",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+      },
+      {
+        "label" : "any boson",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+      },
+      {
+        "label" : "any boson",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "γ, W⁺, W⁻, Z⁰, g, H"
+      },
+      {
+        "label" : "any strongly interacting particle",
+        "limb" : "left hand",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any strongly interacting particle",
+        "limb" : "right hand",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any strongly interacting particle",
+        "limb" : "left foot",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any strongly interacting particle",
+        "limb" : "right foot",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any weakly interacting particle",
+        "limb" : "left hand",
+        "options" : "27",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, νebar, νμbar, ντbar, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any weakly interacting particle",
+        "limb" : "right hand",
+        "options" : "27",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, νebar, νμbar, ντbar, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any weakly interacting particle",
+        "limb" : "left foot",
+        "options" : "27",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, νebar, νμbar, ντbar, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any weakly interacting particle",
+        "limb" : "right foot",
+        "options" : "27",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, νebar, νμbar, ντbar, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any electromagnatically interacting particle",
+        "limb" : "left hand",
+        "options" : "21/23",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, γ (W⁺, W⁻)"
+      },
+      {
+        "label" : "any electromagnatically interacting particle",
+        "limb" : "right hand",
+        "options" : "21/23",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, γ (W⁺, W⁻)"
+      },
+      {
+        "label" : "any electromagnatically interacting particle",
+        "limb" : "left foot",
+        "options" : "21/23",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, γ (W⁺, W⁻)"
+      },
+      {
+        "label" : "any electromagnatically interacting particle",
+        "limb" : "right foot",
+        "options" : "21/23",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, γ (W⁺, W⁻)"
+      },
+      {
+        "label" : "any particle receiving mass via the Higgs field",
+        "limb" : "left hand",
+        "options" : "21",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any particle receiving mass via the Higgs field",
+        "limb" : "right hand",
+        "options" : "21",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any particle receiving mass via the Higgs field",
+        "limb" : "left foot",
+        "options" : "21",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any particle receiving mass via the Higgs field",
+        "limb" : "right foot",
+        "options" : "21",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, W⁺, W⁻, Z⁰"
+      }
+    ],
+    "yellow" : [
+      {
+        "label" : "any particle not coupling to the Higgs particle",
+        "limb" : "left hand",
+        "options" : "8",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, g"
+      },
+      {
+        "label" : "any particle not coupling to the Higgs particle",
+        "limb" : "right hand",
+        "options" : "8",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, g"
+      },
+      {
+        "label" : "any particle not coupling to the Higgs particle",
+        "limb" : "left foot",
+        "options" : "8",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, g"
+      },
+      {
+        "label" : "any particle not coupling to the Higgs particle",
+        "limb" : "right foot",
+        "options" : "8",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, g"
+      },
+      {
+        "label" : "any 'force carrier' of the weak interaction",
+        "limb" : "left hand",
+        "options" : "3",
+        "solution" : "W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any 'force carrier' of the weak interaction",
+        "limb" : "right hand",
+        "options" : "3",
+        "solution" : "W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any 'force carrier' of the weak interaction",
+        "limb" : "left foot",
+        "options" : "3",
+        "solution" : "W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any 'force carrier' of the weak interaction",
+        "limb" : "right foot",
+        "options" : "3",
+        "solution" : "W⁺, W⁻, Z⁰"
+      },
+      {
+        "label" : "any particle with negative electric charge",
+        "limb" : "left hand",
+        "options" : "10",
+        "solution" : "e⁻, μ⁻, τ⁻, ubar, cbar, tbar, d, s, b, W⁻"
+      },
+      {
+        "label" : "any particle with negative electric charge",
+        "limb" : "right hand",
+        "options" : "10",
+        "solution" : "e⁻, μ⁻, τ⁻, ubar, cbar, tbar, d, s, b, W⁻"
+      },
+      {
+        "label" : "any particle with negative electric charge",
+        "limb" : "left foot",
+        "options" : "10",
+        "solution" : "e⁻, μ⁻, τ⁻, ubar, cbar, tbar, d, s, b, W⁻"
+      },
+      {
+        "label" : "any particle with negative electric charge",
+        "limb" : "right foot",
+        "options" : "10",
+        "solution" : "e⁻, μ⁻, τ⁻, ubar, cbar, tbar, d, s, b, W⁻"
+      },
+      {
+        "label" : "any particle with positive electric charge",
+        "limb" : "left hand",
+        "options" : "10",
+        "solution" : "e⁺, μ⁺, τ⁺, u, c, t, dbar, sbar, bbar, W⁻"
+      },
+      {
+        "label" : "any particle with positive electric charge",
+        "limb" : "right hand",
+        "options" : "10",
+        "solution" : "e⁺, μ⁺, τ⁺, u, c, t, dbar, sbar, bbar, W⁻"
+      },
+      {
+        "label" : "any particle with positive electric charge",
+        "limb" : "left foot",
+        "options" : "10",
+        "solution" : "e⁺, μ⁺, τ⁺, u, c, t, dbar, sbar, bbar, W⁻"
+      },
+      {
+        "label" : "any particle with positive electric charge",
+        "limb" : "right foot",
+        "options" : "10",
+        "solution" : "e⁺, μ⁺, τ⁺, u, c, t, dbar, sbar, bbar, W⁻"
+      },
+      {
+        "label" : "any particle without electric charge",
+        "limb" : "left hand",
+        "options" : "10",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, Z⁰, g, H"
+      },
+      {
+        "label" : "any particle without electric charge",
+        "limb" : "right hand",
+        "options" : "10",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, Z⁰, g, H"
+      },
+      {
+        "label" : "any particle without electric charge",
+        "limb" : "left foot",
+        "options" : "10",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, Z⁰, g, H"
+      },
+      {
+        "label" : "any particle without electric charge",
+        "limb" : "right foot",
+        "options" : "10",
+        "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar, γ, Z⁰, g, H"
+      },
+      {
+        "label" : "any first-generation fermion",
+        "limb" : "left hand",
+        "options" : "8",
+        "solution" : "e⁻, e⁺, νe, νebar, u, ubar, d, dbar"
+      },
+      {
+        "label" : "any first-generation fermion",
+        "limb" : "right hand",
+        "options" : "8",
+        "solution" : "e⁻, e⁺, νe, νebar, u, ubar, d, dbar"
+      },
+      {
+        "label" : "any first-generation fermion",
+        "limb" : "left foot",
+        "options" : "8",
+        "solution" : "e⁻, e⁺, νe, νebar, u, ubar, d, dbar"
+      },
+      {
+        "label" : "any first-generation fermion",
+        "limb" : "right foot",
+        "options" : "8",
+        "solution" : "e⁻, e⁺, νe, νebar, u, ubar, d, dbar"
+      },
+      {
+        "label" : "any second-generation fermion",
+        "limb" : "left hand",
+        "options" : "8",
+        "solution" : "μ⁻, μ⁺, νμ, νμbar, c, cbar, s, sbar"
+      },
+      {
+        "label" : "any second-generation fermion",
+        "limb" : "right hand",
+        "options" : "8",
+        "solution" : "μ⁻, μ⁺, νμ, νμbar, c, cbar, s, sbar"
+      },
+      {
+        "label" : "any second-generation fermion",
+        "limb" : "left foot",
+        "options" : "8",
+        "solution" : "μ⁻, μ⁺, νμ, νμbar, c, cbar, s, sbar"
+      },
+      {
+        "label" : "any second-generation fermion",
+        "limb" : "right foot",
+        "options" : "8",
+        "solution" : "μ⁻, μ⁺, νμ, νμbar, c, cbar, s, sbar"
+      },
+      {
+        "label" : "any third-generation fermion",
+        "limb" : "left hand",
+        "options" : "8",
+        "solution" : "τ⁻, τ⁺, ντ, ντbar, t, tbar, b, bbar"
+      },
+      {
+        "label" : "any third-generation fermion",
+        "limb" : "right hand",
+        "options" : "8",
+        "solution" : "τ⁻, τ⁺, ντ, ντbar, t, tbar, b, bbar"
+      },
+      {
+        "label" : "any third-generation fermion",
+        "limb" : "left foot",
+        "options" : "8",
+        "solution" : "τ⁻, τ⁺, ντ, ντbar, t, tbar, b, bbar"
+      },
+      {
+        "label" : "any third-generation fermion",
+        "limb" : "right foot",
+        "options" : "8",
+        "solution" : "τ⁻, τ⁺, ντ, ντbar, t, tbar, b, bbar"
+      },
+      {
+        "label" : "any particle carrying colour charge(s)",
+        "limb" : "left hand",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any particle carrying colour charge(s)",
+        "limb" : "right hand",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any particle carrying colour charge(s)",
+        "limb" : "left foot",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      },
+      {
+        "label" : "any particle carrying colour charge(s)",
+        "limb" : "right foot",
+        "options" : "13",
+        "solution" : "u, ubar, c, cbar, t, tbar, d, dbar, s, sbar, b, bbar, g"
+      }
+    ],
+    "red" : [
+      {
+        "label" : "any particle found in atoms",
+        "limb" : "left hand",
+        "options" : "3",
+        "solution" : "e⁻, u, d"
+      },
+      {
+        "label" : "any particle found in atoms",
+        "limb" : "right hand",
+        "options" : "3",
+        "solution" : "e⁻, u, d"
+      },
+      {
+        "label" : "any particle found in atoms",
+        "limb" : "left foot",
+        "options" : "3",
+        "solution" : "e⁻, u, d"
+      },
+      {
+        "label" : "any particle found in atoms",
+        "limb" : "right foot",
+        "options" : "3",
+        "solution" : "e⁻, u, d"
+      },
+      {
+        "label" : "any particle found in pions / π-mesons",
+        "limb" : "left hand",
+        "options" : "4",
+        "solution" : "u, ubar, d, dbar"
+      },
+      {
+        "label" : "any particle found in pions / π-mesons",
+        "limb" : "right hand",
+        "options" : "4",
+        "solution" : "u, ubar, d, dbar"
+      },
+      {
+        "label" : "any particle found in pions / π-mesons",
+        "limb" : "left foot",
+        "options" : "4",
+        "solution" : "u, ubar, d, dbar"
+      },
+      {
+        "label" : "any particle found in pions / π-mesons",
+        "limb" : "right foot",
+        "options" : "4",
+        "solution" : "u, ubar, d, dbar"
+      },
+      {
+        "label" : "any particle found in kaons / K-mesons",
+        "limb" : "left hand",
+        "options" : "6",
+        "solution" : "u, ubar, d, dbar, s, sbar"
+      },
+      {
+        "label" : "any particle found in kaons / K-mesons",
+        "limb" : "right hand",
+        "options" : "6",
+        "solution" : "u, ubar, d, dbar, s, sbar"
+      },
+      {
+        "label" : "any particle found in kaons / K-mesons",
+        "limb" : "left foot",
+        "options" : "6",
+        "solution" : "u, ubar, d, dbar, s, sbar"
+      },
+      {
+        "label" : "any particle found in kaons / K-mesons",
+        "limb" : "right foot",
+        "options" : "6",
+        "solution" : "u, ubar, d, dbar, s, sbar"
+      },
+      {
+        "label" : "any particle discovered in Europe",
+        "limb" : "left hand",
+        "options" : "??",
+        "solution" : "W⁺, W⁻, Z⁰, H, g, e, γ, ..."
+      },
+      {
+        "label" : "any particle discovered in Europe",
+        "limb" : "right hand",
+        "options" : "??",
+        "solution" : "W⁺, W⁻, Z⁰, H, g, e, γ, ..."
+      },
+      {
+        "label" : "any particle discovered in Europe",
+        "limb" : "left foot",
+        "options" : "??",
+        "solution" : "W⁺, W⁻, Z⁰, H, g, e, γ, ..."
+      },
+      {
+        "label" : "any particle discovered in Europe",
+        "limb" : "right foot",
+        "options" : "??",
+        "solution" : "W⁺, W⁻, Z⁰, H, g, e, γ, ..."
+      },
+      {
+        "label" : "any particle discovered in America",
+        "limb" : "left hand",
+        "options" : "??",
+        "solution" : "τ, t, ..."
+      },
+      {
+        "label" : "any particle discovered in America",
+        "limb" : "right hand",
+        "options" : "??",
+        "solution" : "τ, t, ..."
+      },
+      {
+        "label" : "any particle discovered in America",
+        "limb" : "left foot",
+        "options" : "??",
+        "solution" : "τ, t, ..."
+      },
+      {
+        "label" : "any particle discovered in America",
+        "limb" : "right foot",
+        "options" : "??",
+        "solution" : "τ, t, ..."
+      },
+      {
+        "label" : "any particle with non-zero weak isospin",
+        "limb" : "left hand",
+        "options" : "15",
+        "solution" : "e⁻, μ⁻, τ⁻, νe, νμ, ντ, u, d, c, s, t, b, W⁺, W⁻, H"
+      },
+      {
+        "label" : "any particle with non-zero weak isospin",
+        "limb" : "right hand",
+        "options" : "15",
+        "solution" : "e⁻, μ⁻, τ⁻, νe, νμ, ντ, u, d, c, s, t, b, W⁺, W⁻, H"
+      },
+      {
+        "label" : "any particle with non-zero weak isospin",
+        "limb" : "left foot",
+        "options" : "15",
+        "solution" : "e⁻, μ⁻, τ⁻, νe, νμ, ντ, u, d, c, s, t, b, W⁺, W⁻, H"
+      },
+      {
+        "label" : "any particle with non-zero weak isospin",
+        "limb" : "right foot",
+        "options" : "15",
+        "solution" : "e⁻, μ⁻, τ⁻, νe, νμ, ντ, u, d, c, s, t, b, W⁺, W⁻, H"
+      },
+      {
+        "label" : "any particle with weak isospin of zero",
+        "limb" : "left hand",
+        "options" : "12",
+        "solution" : "e⁺, μ⁺, τ⁺, ubar, dbar, cbar, sbar, tbar, bbar, Z⁰, γ, g"
+      },
+      {
+        "label" : "any particle with weak isospin of zero",
+        "limb" : "right hand",
+        "options" : "12",
+        "solution" : "e⁺, μ⁺, τ⁺, ubar, dbar, cbar, sbar, tbar, bbar, Z⁰, γ, g"
+      },
+      {
+        "label" : "any particle with weak isospin of zero",
+        "limb" : "left foot",
+        "options" : "12",
+        "solution" : "e⁺, μ⁺, τ⁺, ubar, dbar, cbar, sbar, tbar, bbar, Z⁰, γ, g"
+      },
+      {
+        "label" : "any particle with weak isospin of zero",
+        "limb" : "right foot",
+        "options" : "12",
+        "solution" : "e⁺, μ⁺, τ⁺, ubar, dbar, cbar, sbar, tbar, bbar, Z⁰, γ, g"
+      },
+      {
+        "label" : "any particle with non-zero weak hypercharge",
+        "limb" : "left hand",
+        "options" : "22",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      },
+      {
+        "label" : "any particle with non-zero weak hypercharge",
+        "limb" : "right hand",
+        "options" : "22",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      },
+      {
+        "label" : "any particle with non-zero weak hypercharge",
+        "limb" : "left foot",
+        "options" : "22",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      },
+      {
+        "label" : "any particle with non-zero weak hypercharge",
+        "limb" : "right foot",
+        "options" : "22",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      }
+    ],
+    "black" : [
+      {
+        "label" : "two particles created in a single Z-boson decay",
+        "limb" : "hands",
+        "options" : "??",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      },
+      {
+        "label" : "two particles created in a single Z-boson decay",
+        "limb" : "feet",
+        "options" : "??",
+        "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺, νe, νμ, ντ, u, d, c, s, t, b, ubar, dbar, cbar, sbar, tbar, bbar, H"
+      }
+    ]
+  }
+}
