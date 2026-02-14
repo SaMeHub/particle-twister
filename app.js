@@ -40,6 +40,7 @@ window.onload = function() {
     wheel_over.style.width = wheel_img.width + 'px';
     wheel_over.style.height = wheel_img.height + 'px';
     wheel_over.style.zIndex = 3;
+    wheel_over.style.display = 'None'; // added, as canvas still needs some fixing on mobile
 
     // ctx.fillStyle = 'rgba(255, 0, 0, 0.2)';
     // ctx.fillRect(0, 0, 0.5*wheel_img.width, 0.5*wheel_img.width);
