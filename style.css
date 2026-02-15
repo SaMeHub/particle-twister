@@ -85,6 +85,10 @@ div.point {
   font-size: 70%;
 }
 
+.credits .small {
+  color: #bbb;
+}
+
 .version {
   font-size: 70%;
   color: #bbb;
