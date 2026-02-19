@@ -69,7 +69,11 @@ a {
   grid-row: auto auto;
 }
 
-div.point {
+.wheel {
+  width: 100%;
+}
+
+.point {
   cursor: pointer;
 }
 
