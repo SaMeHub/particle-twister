@@ -8,6 +8,8 @@ For question and inquries about the game and especially on the PWA, please refer
 
 ## changelog
 
+* v2026-02-19b
+    * minor fixes to get animation working on mobile phones
 * v2026-02-19a
     * added wheel animation
 * v2026-02-15a
