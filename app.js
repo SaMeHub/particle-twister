@@ -19,7 +19,7 @@ let content = document.querySelector(".content");
 let wheel = document.querySelector(".wheel");
 let wheel_img = document.querySelector(".wheel_img");
 let wheel_canvas = document.createElement('canvas');
-let ctx = wheel_canvas.getContext("2d");
+let ctx = null;
 let cards = document.querySelectorAll(".card");
 let overlay_wrapper = document.querySelector(".overlay_wrapper");
 let overlay = document.querySelector(".overlay");
@@ -27,15 +27,17 @@ let version = document.querySelector(".version");
 let timer = null;
 let wheel_pos = 0;
 let step_time = 10;
-
-let devicePixelRatio = window.devicePixelRatio || 1;
-let backingStoreRatio = ctx.webkitBackingStorePixelRatio || ctx.mozBackingStorePixelRatio || ctx.msBackingStorePixelRatio || ctx.oBackingStorePixelRatio || ctx.backingStorePixelRatio || 1;
-let scale = 2 * devicePixelRatio / backingStoreRatio;
+let scale = 2;
 
 window.onload = function() {
   wheel_canvas.id = 'wheel_canvas';
   wheel.appendChild(wheel_canvas);
   wheel_img.remove();
+
+  ctx = wheel_canvas.getContext("2d");
+  let devicePixelRatio = window.devicePixelRatio || 1;
+  let backingStoreRatio = ctx.webkitBackingStorePixelRatio || ctx.mozBackingStorePixelRatio || ctx.msBackingStorePixelRatio || ctx.oBackingStorePixelRatio || ctx.backingStorePixelRatio || 1;
+  scale = 2 * devicePixelRatio / backingStoreRatio;
 
   window.addEventListener('resize', (event) => {
     let wheel_comp = window.getComputedStyle(wheel, null);
