@@ -40,6 +40,9 @@ window.onload = function() {
   scale = 2 * devicePixelRatio / backingStoreRatio;
 
   window.addEventListener('resize', (event) => {
+    let content_comp = window.getComputedStyle(content, null);
+    content.style.width = (parseFloat(content_comp.height)) * 9 / 16 + 'px';
+
     let wheel_comp = window.getComputedStyle(wheel, null);
     let size = parseFloat(wheel_comp.width) - parseFloat(wheel_comp.paddingLeft) - parseFloat(wheel_comp.paddingRight);
     wheel_canvas.style.width = size + 'px';
@@ -50,7 +53,7 @@ window.onload = function() {
     drawArrow(wheel_pos);
   }, true);
   window.dispatchEvent(new Event('resize'));
-  
+
   function drawArrow(pos) {
     let mid = ctx.canvas.width * 0.5;
     let len = ctx.canvas.width * 0.4;
