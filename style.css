@@ -13,7 +13,7 @@
 
 body {
   background-color: rgba(255, 255, 255, 1);
-  font: 1.2rem sans-serif;
+  font: 1rem sans-serif;
 }
 
 a {
@@ -23,8 +23,8 @@ a {
 .wrapper {
   min-width: 100vw;
   min-height: 100vh;
-  background-color: #eee;
-  background: linear-gradient(90deg,rgba(239, 80, 152, 1.0) 0%, rgba(127, 106, 175, 1.0) 25%, rgba(39, 170, 225, 1.0) 50%, rgba(57, 181, 74, 1.0) 75%, rgba(254, 240, 105, 1.0) 100%);
+  background-color: rgba(238, 238, 238, 1);
+  background: linear-gradient(90deg, rgba(239, 80, 152, 1) 0%, rgba(127, 106, 175, 1) 25%, rgba(39, 170, 225, 1) 50%, rgba(57, 181, 74, 1) 75%, rgba(254, 240, 105, 1) 100%);
   position: relative;
 }
 
@@ -73,16 +73,47 @@ a {
   width: 100%;
 }
 
-.point {
-  cursor: pointer;
+.row .card img {
+  border: 1px solid rgba(187, 187, 187, 1);
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: safe center;
+  align-content: safe center;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons a {
+  text-decoration: none;
+  border: 1px solid rgba(187, 187, 187, 1);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.buttons a.link {
+  font-size: 0.5rem;
+}
+
+.buttons a.card[data-color='black'] {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.5rem;
 }
 
 .credits {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .credits a {
   text-decoration: none;
+}
+
+.point {
+  cursor: pointer;
 }
 
 .small {
@@ -100,7 +131,7 @@ a {
 
 .overlay_wrapper {
 /*  background-color: rgba(255, 255, 255, 0.85);*/
-  background: linear-gradient(90deg,rgba(239, 80, 152, 1.0) 0%, rgba(127, 106, 175, 1.0) 25%, rgba(39, 170, 225, 1.0) 50%, rgba(57, 181, 74, 1.0) 75%, rgba(254, 240, 105, 1.0) 100%);
+  background: linear-gradient(90deg, rgba(239, 80, 152, 1.0) 0%, rgba(127, 106, 175, 1.0) 25%, rgba(39, 170, 225, 1.0) 50%, rgba(57, 181, 74, 1.0) 75%, rgba(254, 240, 105, 1.0) 100%);
   position: fixed;
   top: 50%;
   left: 50%;
@@ -128,7 +159,7 @@ a {
 }
 
 .overlay .limb, .overlay .label {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 .fadeIn {

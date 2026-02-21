@@ -8,6 +8,8 @@ For question and inquries about the game and especially on the PWA, please refer
 
 ## changelog
 
+* v2026-02-21a
+    * first localisation features added for German
 * v2026-02-20a
     * minor adjustments plus fixes for iPad/iOS devices
 * v2026-02-19b

@@ -21,6 +21,7 @@ let wheel_img = document.querySelector(".wheel_img");
 let wheel_canvas = document.createElement('canvas');
 let ctx = null;
 let cards = document.querySelectorAll(".card");
+let langs = document.querySelectorAll(".lang");
 let overlay_wrapper = document.querySelector(".overlay_wrapper");
 let overlay = document.querySelector(".overlay");
 let version = document.querySelector(".version");
@@ -28,6 +29,7 @@ let timer = null;
 let wheel_pos = 0;
 let step_time = 10;
 let scale = 2;
+let language = 'en';
 
 window.onload = function() {
   wheel_canvas.id = 'wheel_canvas';
@@ -38,6 +40,19 @@ window.onload = function() {
   let devicePixelRatio = window.devicePixelRatio || 1;
   let backingStoreRatio = ctx.webkitBackingStorePixelRatio || ctx.mozBackingStorePixelRatio || ctx.msBackingStorePixelRatio || ctx.oBackingStorePixelRatio || ctx.backingStorePixelRatio || 1;
   scale = 2 * devicePixelRatio / backingStoreRatio;
+
+  function checkLanguage() {
+    let lang_enable = document.querySelector(".buttons a.lang[data-lang='" + language + "']");
+    // lang_enable.style.background = 'rgba(254, 240, 105, 1)';
+    // lang_enable.style.color = 'rgba(0, 0, 0, 1)';
+    lang_enable.style.border = '3px solid rgba(0, 0, 0, 1)';
+    document.querySelectorAll(".buttons a.lang:not([data-lang='" + language + "'])").forEach(lang_disable => {
+      // lang_disable.style.background = 'rgba(239, 80, 152, 1)';
+      // lang_disable.style.color = 'rgba(255, 255, 255, 1)';
+      lang_disable.style.border = '';
+    });
+  }
+  checkLanguage();
 
   window.addEventListener('resize', (event) => {
     let content_comp = window.getComputedStyle(content, null);
@@ -73,12 +88,12 @@ window.onload = function() {
     wheel_pos = (wheel_pos + 1) % data_store.wheel.length;
     window.dispatchEvent(new Event('resize'));
     if (steps <= 0) {
-      overlay.innerHTML = '<p class="head">wheel turn</p>'
-        + '<p class="limb">' + data_store.wheel[wheel_pos].limb + '</p>'
-        + '<p>on</p>'
-        + '<p class="label">' + data_store.wheel[wheel_pos].label + '</p>'
-        + '<p class="color_label">(' + data_store.wheel[wheel_pos].color_label + ')</p>';
-      speak(data_store.wheel[wheel_pos].limb + ' on ' + data_store.wheel[wheel_pos].label);
+      overlay.innerHTML = '<p class="head">' + data_store.lang[language].turn + '</p>'
+        + '<p class="limb">' + data_store.wheel[wheel_pos]['limb_' + language] + '</p>'
+        + '<p>' + data_store.lang[language].on + '</p>'
+        + '<p class="label">' + data_store.wheel[wheel_pos]['label_' + language] + '</p>'
+        + '<p class="color_label">(' + data_store.wheel[wheel_pos]['color_label_' + language] + ')</p>';
+      speak(data_store.wheel[wheel_pos]['limb_' + language] + ' ' + data_store.lang[language].on + ' ' + data_store.wheel[wheel_pos]['label_' + language]);
       overlay_wrapper.classList.remove('fadeOut');
       overlay_wrapper.classList.add('fadeIn');
       clearTimeout(timer);
@@ -117,11 +132,11 @@ window.onload = function() {
     if ('cards' in data_store && color in data_store.cards && data_store.cards[color].length > 0) {
       var random = Math.floor(Math.random() * (data_store.cards[color].length));
       // var random = Math.floor(Math.random() * (max - min + 1)) + min;
-      overlay.innerHTML = '<p class="head">' + color + ' card</p>'
-        + '<p class="limb">' + data_store.cards[color][random].limb + '</p>'
-        + '<p>on</p>'
-        + '<p class="label">' + data_store.cards[color][random].label + '</p>';
-      speak(data_store.cards[color][random].limb + ' on ' + data_store.cards[color][random].label);
+      overlay.innerHTML = '<p class="head">' + data_store.lang[language].pick + '</p>'
+        + '<p class="limb">' + data_store.cards[color][random]['limb_' + language] + '</p>'
+        + '<p>' + data_store.lang[language].on + '</p>'
+        + '<p class="label">' + data_store.cards[color][random]['label_' + language] + '</p>';
+      speak(data_store.cards[color][random]['limb_' + language] + ' ' + data_store.lang[language].on + ' ' + data_store.cards[color][random]['label_' + language]);
       overlay_wrapper.classList.remove('fadeOut');
       overlay_wrapper.classList.add('fadeIn');
       clearTimeout(timer);
@@ -130,6 +145,11 @@ window.onload = function() {
         overlay_wrapper.classList.add('fadeOut');
       }, 10000);
     }
+  }, true));
+
+  langs.forEach(lang => lang.addEventListener('click', (event) => {
+    language = lang.dataset.lang;
+    checkLanguage();
   }, true));
 
   // setting up text-to-speech feature
@@ -144,8 +164,15 @@ window.onload = function() {
   function speak(text, callback) {
     let u = new SpeechSynthesisUtterance();
     u.text = text;
-    u.lang = 'en-US';
-    u.voice = window.speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Google UK English Male'; })[0];
+    switch (language) {
+      case "de":
+        u.lang = 'de-DE';
+        u.voice = window.speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Google Deutsch'; })[0];
+        break;
+      default:
+        u.lang = 'en-US';
+        u.voice = window.speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Google UK English Male'; })[0];
+    }
     u.onend = function () {
       if (callback) {
         callback();
