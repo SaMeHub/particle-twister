@@ -8,6 +8,8 @@ For question and inquries about the game and especially on the PWA, please refer
 
 ## changelog
 
+* v2026-03-04a
+    * minor spelling fix
 * v2026-02-21a
     * first localisation features added for German
 * v2026-02-20a

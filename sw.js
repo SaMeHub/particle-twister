@@ -5,7 +5,7 @@
 /* coding/PWA: Sascha Mehlhase */
 
 // Files to cache
-const cacheName = 'particle-twister-mehlhase-v2026-02-21a';
+const cacheName = 'particle-twister-mehlhase-v2026-03-04a';
 const appShellFiles = [
   '',
   './index.html',
