@@ -50,9 +50,9 @@
     },
     {
       "id" : 3,
-      "label_en" : "neutral leptons",
+      "label_en" : "electrically neutral leptons",
       "limb_en" : "right hand",
-      "label_de" : "neutrale Leptonen",
+      "label_de" : "elektrisch neutrale Leptonen",
       "limb_de" : "rechte Hand",
       "color_label_en" : "purple",
       "color_label_de" : "Lila",
@@ -62,9 +62,9 @@
     },
     {
       "id" : 4,
-      "label_en" : "charged leptons",
+      "label_en" : "electrically charged leptons",
       "limb_en" : "right hand",
-      "label_de" : "geladene Leptonen",
+      "label_de" : "elektrisch geladene Leptonen",
       "limb_de" : "rechte Hand",
       "color_label_en" : "pink",
       "color_label_de" : "Pink",
@@ -110,9 +110,9 @@
     },
     {
       "id" : 8,
-      "label_en" : "neutral leptons",
+      "label_en" : "electrically neutral leptons",
       "limb_en" : "left hand",
-      "label_de" : "neutrale Leptonen",
+      "label_de" : "elektrisch neutrale Leptonen",
       "limb_de" : "linke Hand",
       "color_label_en" : "purple",
       "color_label_de" : "Lila",
@@ -122,9 +122,9 @@
     },
     {
       "id" : 9,
-      "label_en" : "charged leptons",
+      "label_en" : "electrically charged leptons",
       "limb_en" : "left hand",
-      "label_de" : "geladene Leptonen",
+      "label_de" : "elektrisch geladene Leptonen",
       "limb_de" : "linke Hand",
       "color_label_en" : "pink",
       "color_label_de" : "Pink",
@@ -170,9 +170,9 @@
     },
     {
       "id" : 13,
-      "label_en" : "neutral leptons",
+      "label_en" : "electrically neutral leptons",
       "limb_en" : "left foot",
-      "label_de" : "neutrale Leptonen",
+      "label_de" : "elektrisch neutrale Leptonen",
       "limb_de" : "linker Fuß",
       "color_label_en" : "purple",
       "color_label_de" : "Lila",
@@ -182,9 +182,9 @@
     },
     {
       "id" : 14,
-      "label_en" : "charged leptons",
+      "label_en" : "electrically charged leptons",
       "limb_en" : "left foot",
-      "label_de" : "geladene Leptonen",
+      "label_de" : "elektrisch geladene Leptonen",
       "limb_de" : "linker Fuß",
       "color_label_en" : "pink",
       "color_label_de" : "Pink",
@@ -230,9 +230,9 @@
     },
     {
       "id" : 18,
-      "label_en" : "neutral leptons",
+      "label_en" : "electrically neutral leptons",
       "limb_en" : "right foot",
-      "label_de" : "neutrale Leptonen",
+      "label_de" : "elektrisch neutrale Leptonen",
       "limb_de" : "rechter Fuß",
       "color_label_en" : "purple",
       "color_label_de" : "Lila",
@@ -242,9 +242,9 @@
     },
     {
       "id" : 19,
-      "label_en" : "charged leptons",
+      "label_en" : "electrically charged leptons",
       "limb_en" : "right foot",
-      "label_de" : "geladene Leptonen",
+      "label_de" : "elektrisch geladene Leptonen",
       "limb_de" : "rechter Fuß",
       "color_label_en" : "pink",
       "color_label_de" : "Pink",
@@ -256,65 +256,65 @@
   "cards" : {
     "green" : [
       {
-        "label_en" : "any charged lepton",
+        "label_en" : "any electrically charged lepton",
         "limb_en" : "left hand",
-        "label_de" : "ein geladenes Lepton",
+        "label_de" : "ein elektrisch geladenes Lepton",
         "limb_de" : "linke Hand",
         "options" : "6",
         "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
       },
       {
-        "label_en" : "any charged lepton",
+        "label_en" : "any electrically charged lepton",
         "limb_en" : "right hand",
-        "label_de" : "ein geladenes Lepton",
+        "label_de" : "ein elektrisch geladenes Lepton",
         "limb_de" : "rechte Hand",
         "options" : "6",
         "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
       },
       {
-        "label_en" : "any charged lepton",
+        "label_en" : "any electrically charged lepton",
         "limb_en" : "left foot",
-        "label_de" : "ein geladenes Lepton",
+        "label_de" : "ein elektrisch geladenes Lepton",
         "limb_de" : "linker Fuß",
         "options" : "6",
         "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
       },
       {
-        "label_en" : "any charged lepton",
+        "label_en" : "any electrically charged lepton",
         "limb_en" : "right foot",
-        "label_de" : "ein geladenes Lepton",
+        "label_de" : "ein elektrisch geladenes Lepton",
         "limb_de" : "rechter Fuß",
         "options" : "6",
         "solution" : "e⁻, μ⁻, τ⁻, e⁺, μ⁺, τ⁺"
       },
       {
-        "label_en" : "any neutral lepton",
+        "label_en" : "any electrically neutral lepton",
         "limb_en" : "left hand",
-        "label_de" : "ein neutrales Lepton",
+        "label_de" : "ein elektrisch neutrales Lepton",
         "limb_de" : "linke Hand",
         "options" : "6",
         "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
       },
       {
-        "label_en" : "any neutral lepton",
+        "label_en" : "any electrically neutral lepton",
         "limb_en" : "right hand",
-        "label_de" : "ein neutrales Lepton",
+        "label_de" : "ein elektrisch neutrales Lepton",
         "limb_de" : "rechte Hand",
         "options" : "6",
         "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
       },
       {
-        "label_en" : "any neutral lepton",
+        "label_en" : "any electrically neutral lepton",
         "limb_en" : "left foot",
-        "label_de" : "ein neutrales Lepton",
+        "label_de" : "ein elektrisch neutrales Lepton",
         "limb_de" : "linker Fuß",
         "options" : "6",
         "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
       },
       {
-        "label_en" : "any neutral lepton",
+        "label_en" : "any electrically neutral lepton",
         "limb_en" : "right foot",
-        "label_de" : "ein neutrales Lepton",
+        "label_de" : "ein elektrisch neutrales Lepton",
         "limb_de" : "rechter Fuß",
         "options" : "6",
         "solution" : "νe, νμ, ντ, νebar, νμbar, ντbar"
